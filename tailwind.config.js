@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const colors = require("tailwindcss/colors");
+
 module.exports = {
   mode:"jit",
   purge: [
@@ -20,7 +22,10 @@ module.exports = {
       center: true,
     },
     colors: {
-      'blue': '#2563eb',
+      transparent: "transparent",
+      current: "currentColor",
+      black: colors.black,
+      white: colors.white,
       "text-black": "#243c5a",
       "text-green": "#008c8d",
       "bg-green": "#6bc2c3",
