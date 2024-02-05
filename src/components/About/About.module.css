@@ -1,0 +1,5 @@
+.bg {
+  background-image: url('/public/bg-about.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
