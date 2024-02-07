@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const colors = require("tailwindcss/colors");
+
 module.exports = {
   mode:"jit",
   purge: [
@@ -20,7 +22,10 @@ module.exports = {
       center: true,
     },
     colors: {
-      'blue': '#2563eb',
+      transparent: "transparent",
+      current: "currentColor",
+      black: colors.black,
+      white: colors.white,
       "text-black": "#243c5a",
       "text-green": "#008c8d",
       "bg-green": "#6bc2c3",
@@ -30,11 +35,9 @@ module.exports = {
       "border-green": "#c5eaea",
     },
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
+      backgroundImage: (theme) => ({
+        "bg-about-pc": "url('public/bg-about.png')",
+      }),
     },
   },
   plugins: [],
