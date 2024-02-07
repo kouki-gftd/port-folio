@@ -35,11 +35,9 @@ module.exports = {
       "border-green": "#c5eaea",
     },
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
+      backgroundImage: (theme) => ({
+        "bg-about-pc": "url('public/bg-about.png')",
+      }),
     },
   },
   plugins: [],
