@@ -14,6 +14,7 @@ export const Values = () => {
             width="200"
             height="200"
             cardTitle="価値観1"
+            text="テキスト"
           />
           <Card
             src="/value2.png"
@@ -21,6 +22,7 @@ export const Values = () => {
             width="200"
             height="200"
             cardTitle="価値観2"
+            text="テキスト"
           />
           <Card
             src="/value3.png"
@@ -28,6 +30,7 @@ export const Values = () => {
             width="200"
             height="200"
             cardTitle="価値観3"
+            text="テキスト"
           />
         </div>
       </section>
