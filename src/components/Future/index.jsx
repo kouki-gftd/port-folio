@@ -7,7 +7,7 @@ export const Future = () => {
   return (
     <>
       <SectionTitle title="3年後にやりたいこと" lead="FUTURE" position="start" />
-      <section id="future" className={`${classes.bg} py-20`}>
+      <section id="future" className={`${classes.bg} py-20 pr-20 flex justify-end `}>
         <Image src="/future.png" alt="" width="480" height="251" />
       </section>
     </>

@@ -1,13 +1,14 @@
 import React from "react";
 import Image from "next/image";
+import skillLogo from "public/skill.png"
 import classes from "src/components/Skills/Skills.module.css"
 import { SectionTitle } from "src/components/SectionTitle";
 
 export const Skills = () => {
   return (
     <>
-      <section id="skills" className={`${classes.bg} py-20`}>
-        <Image src="/skill.png" alt="スキル" width="532" height="372" />
+      <section id="skills" className={`${classes.bg} py-20 flex items-center justify-between`}>
+        <Image src={skillLogo} alt="スキル" />
         <SectionTitle title="スキル" lead="SKILLS" position="start" />
       </section>
     </>
