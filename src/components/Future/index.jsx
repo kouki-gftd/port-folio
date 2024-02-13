@@ -3,6 +3,10 @@ import Image from "next/image";
 import classes from "src/components/Future/Future.module.css";
 import { SectionTitle } from "src/components/SectionTitle";
 
+const ITEMS = [{
+  text: `テキストテキストテキストテキスト`
+}];
+
 export const Future = () => {
   return (
     <>
