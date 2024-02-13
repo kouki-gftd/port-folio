@@ -7,7 +7,7 @@ import { SectionTitle } from "src/components/SectionTitle";
 export const Skills = () => {
   return (
     <>
-      <section id="skills" className={`${classes.bg} py-20 flex items-center justify-between`}>
+      <section id="skills" className={`${classes.bg} py-20 flex`}>
         <Image src={skillLogo} alt="スキル" />
         <SectionTitle title="スキル" lead="SKILLS" position="start" />
       </section>
