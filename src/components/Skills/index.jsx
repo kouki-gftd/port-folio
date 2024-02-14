@@ -8,11 +8,11 @@ import { ProgressBar } from "../ProgressBar/progressBar";
 export const Skills = () => {
   return (
     <>
-      <section id="skills" className={`${classes.bg} py-20 flex`}>
-        <Image src={skillLogo} alt="スキル" className="mx-20" />
+      <section id="skills" className={`${classes.bg} py-20 flex justify-center`}>
+        <Image src={skillLogo} alt="スキル" className="mx-10"/>
         <div className="flex flex-col">
           <SectionTitle title="スキル" lead="SKILLS" position="start" />
-          <p className="m-5">
+          <p className="m-5  whitespace-nowrap">
             テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br />
             テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br />
             テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br />
