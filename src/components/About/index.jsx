@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "src/components/About/About.module.css"
+import classes from "src/components/About/About.module.css";
 import { SectionTitle } from "src/components/SectionTitle";
 import { Card } from "src/components/Card";
 
