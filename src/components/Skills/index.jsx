@@ -12,7 +12,7 @@ export const Skills = () => {
         <Image src={skillLogo} alt="スキル" className="mx-10"/>
         <div className="flex flex-col">
           <SectionTitle title="スキル" lead="SKILLS" position="start" />
-          <p className="m-5  whitespace-nowrap">
+          <p className="m-5 whitespace-nowrap">
             テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br />
             テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br />
             テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br />
