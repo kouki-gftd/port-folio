@@ -10,7 +10,7 @@ export const Future = () => {
       <section id="future" className={`${classes.bg} py-20 flex justify-center`}>
         <div className="flex flex-col mr-10">
           <SectionTitle title="3年後にやりたいこと" lead="FUTURE" position="start" />
-          <p className="mt-10  whitespace-nowrap">
+          <p className="mt-10 whitespace-nowrap">
             テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br />
             テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br />
             テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br />
