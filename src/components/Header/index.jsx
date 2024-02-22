@@ -21,7 +21,7 @@ export const Header = () => {
               <ul className="flex text-text-green">
                 {ITEMS.map((item) => {
                   return (
-                    <li key={item} className="mr-4 last:mr-0">
+                    <li key={item} className="mr-4 last:mr-0 font-bold">
                       <Scroll
                         to={item}
                         smooth={true}
