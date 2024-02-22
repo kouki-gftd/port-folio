@@ -18,7 +18,7 @@ export const Future = () => {
             テキストテキスト
           </p>
         </div>
-        <Image src={futureImg} alt="future" width="480" height="251" />
+        <Image src={futureImg} alt="future"/>
       </section>
     </>
   )
