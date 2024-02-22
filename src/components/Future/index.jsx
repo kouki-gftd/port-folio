@@ -1,7 +1,7 @@
-import React from "react";
-import Image from "next/image";
-import futureImg from "public/future.png"
-import classes from "src/components/Future/Future.module.css";
+import React            from "react";
+import Image            from "next/image";
+import futureImg        from "public/future.png"
+import classes          from "src/components/Future/Future.module.css";
 import { SectionTitle } from "src/components/SectionTitle";
 
 export const Future = () => {

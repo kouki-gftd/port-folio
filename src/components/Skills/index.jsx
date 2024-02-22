@@ -1,9 +1,9 @@
-import React from "react";
-import Image from "next/image";
-import skillLogo from "public/skill.png"
-import classes from "src/components/Skills/Skills.module.css"
+import React            from "react";
+import Image            from "next/image";
+import skillLogo        from "public/skill.png"
+import classes          from "src/components/Skills/Skills.module.css"
 import { SectionTitle } from "src/components/SectionTitle";
-import { ProgressBar } from "../ProgressBar/progressBar";
+import { ProgressBar }  from "../ProgressBar/progressBar";
 
 export const Skills = () => {
   return (
