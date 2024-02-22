@@ -1,7 +1,7 @@
-import React from "react";
-import Image from "next/image";
-import Link from "next/link";
-import logoImg from "public/logo.png";
+import React              from "react";
+import Image              from "next/image";
+import Link               from "next/link";
+import logoImg            from "public/logo.png";
 import { Link as Scroll } from "react-scroll";
 
 const ITEMS = ["about", "skills", "values", "future"];
@@ -22,12 +22,12 @@ export const Header = () => {
                 {ITEMS.map((item) => {
                   return (
                     <li key={item} className="mr-4 last:mr-0">
-                      <Scroll 
-                      to={item} 
-                      smooth={true} 
-                      duration={600} 
-                      offset={-50} 
-                      className="uppercase hover:opacity-50 hover:cursor-pointer"
+                      <Scroll
+                        to={item}
+                        smooth={true}
+                        duration={600}
+                        offset={-50}
+                        className="uppercase hover:opacity-50 hover:cursor-pointer"
                       >
                         {item}
                       </Scroll>

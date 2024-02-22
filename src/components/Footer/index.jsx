@@ -1,8 +1,8 @@
-import React from "react";
-import Image from "next/image";
-import logoWhite from "public/logo_white.png";
+import React       from "react";
+import Image       from "next/image";
+import logoWhite   from "public/logo_white.png";
 import logoTwitter from "public/twitter.png";
-import logoFb from "public/facebook.png";
+import logoFb      from "public/facebook.png";
 
 export const Footer = () => {
   return (
