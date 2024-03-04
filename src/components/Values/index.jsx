@@ -12,9 +12,10 @@ const ITEMS = [{
 export const Values = () => {
   return (
     <>
+    <div className="md:flex flex-col"></div>
       <SectionTitle title="価値観" lead="VALUES" position="center" />
       <section id="values" className="py-20">
-        <div className={`flex items-baseline justify-center`}>
+        <div className={`md:flex items-baseline justify-center`}>
           <Card
             src="/value1.png"
             alt="ロケット"

@@ -15,7 +15,7 @@ export const About = () => {
     <>
       <SectionTitle title="私について" lead="ABOUT" position="center" />
       <section id="about" className={`${classes.bg} py-20`}>
-        <div className={`flex items-baseline justify-center`}>
+        <div className={`md:flex items-baseline justify-center`}>
           <Card
             src="/about-1.png"
             alt="趣味"
