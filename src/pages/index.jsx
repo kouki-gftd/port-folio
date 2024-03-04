@@ -7,7 +7,6 @@ import Skills   from "../components/Skills";
 import Values   from "../components/Values";
 import Future   from "../components/Future";
 import Footer   from "../components/Footer";
-import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const Home = () => {
   return (
@@ -20,7 +19,6 @@ const Home = () => {
       <Values />
       <Future />
       <Footer />
-      <SpeedInsights/>
     </>
   )
 }
