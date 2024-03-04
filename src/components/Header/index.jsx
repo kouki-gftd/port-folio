@@ -1,7 +1,7 @@
-import React from "react";
-import Image from "next/image";
-import Link from "next/link";
-import logoImg from "public/logo.png";
+import React              from "react";
+import Image              from "next/image";
+import Link               from "next/link";
+import logoImg            from "public/logo.png";
 import { Link as Scroll } from "react-scroll";
 
 const ITEMS = ["about", "skills", "values", "future"];
