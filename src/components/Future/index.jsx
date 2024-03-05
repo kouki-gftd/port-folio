@@ -8,7 +8,7 @@ export const Future = () => {
   return (
     <>
       <section id="future" className={`${classes.bg} py-10 flex justify-center`}>
-        <div className="md:flex flex-row ml-20 mt-10">
+        <div className="md:flex flex-row ml-10 mt-10">
           <div className="flex flex-col items-baseline justify-center">
             <SectionTitle title="3年後にやりたいこと" lead="FUTURE" position="start" />
             <p className="mt-10 mr-10 whitespace-normal">
@@ -19,7 +19,7 @@ export const Future = () => {
               テキストテキスト
             </p>
           </div>
-          <div className="mt-10">
+          <div className="mt-10 mr-10">
             <Image src={futureImg} alt="future" />
           </div>
         </div>
