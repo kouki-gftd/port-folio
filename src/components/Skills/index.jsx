@@ -8,18 +8,18 @@ import { ProgressBar }  from "../ProgressBar/progressBar";
 export const Skills = () => {
   return (
     <>
-      <section id="skills" className={`${classes.bg} py-20 md:flex flex-row`}>
+      <section id="skills" className={`${classes.bg} py-20 md:flex flex-row md:pl-20`}>
         <div className="md:hidden">
           <SectionTitle title="スキル" lead="SKILLS" position="left" />
         </div>
-        <div className="order-1 ml-20 mt-10 pl-10 basis-1/2">
+        <div className="order-1 md:ml-20 mt-10 pl-10 ">
           <Image src={skillLogo} alt="スキル" />
         </div>
-        <div className="order-3 ml-20 basis-1/2">
+        <div className="order-3 ml-20 ">
           <div className="order-2">
             <SectionTitle title="スキル" lead="SKILLS" position="left" hideOnMobile={true} />
           </div>
-          <p className="mt-5 whitespace-nowrap">
+          <p className="mt-5 whitespace-normal">
             テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br />
             テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br />
             テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br />
