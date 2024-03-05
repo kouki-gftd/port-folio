@@ -7,7 +7,7 @@ import { SectionTitle } from "src/components/SectionTitle";
 export const Future = () => {
   return (
     <>
-      <section id="future" className={`${classes.bg} py-20 flex justify-center`}>
+      <section id="future" className={`${classes.bg} py-10 flex justify-center`}>
         <div className="md:flex flex-row ml-20 mt-10">
           <div className="flex flex-col items-baseline justify-center">
             <SectionTitle title="3年後にやりたいこと" lead="FUTURE" position="start" />

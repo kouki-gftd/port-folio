@@ -12,14 +12,14 @@ export const Skills = () => {
         <div className="md:hidden">
           <SectionTitle title="スキル" lead="SKILLS" position="left" />
         </div>
-        <div className="order-1 md:ml-20 mt-10 pl-10 ">
+        <div className="order-1 mb-10 md:ml-20 mt-10 pl-10 ">
           <Image src={skillLogo} alt="スキル" />
         </div>
-        <div className="order-3 ml-20 ">
+        <div className="order-3 ml-10 ">
           <div className="order-2">
             <SectionTitle title="スキル" lead="SKILLS" position="left" hideOnMobile={true} />
           </div>
-          <p className="mt-5 whitespace-normal">
+          <p className="md:mt-5 whitespace-normal">
             テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br />
             テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br />
             テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br />
