@@ -9,9 +9,9 @@ export const Future = () => {
     <>
       <section id="future" className={`${classes.bg} py-20 flex justify-center`}>
         <div className="md:flex flex-row ml-20 mt-10">
-          <div>
+          <div className="flex flex-col items-baseline justify-center">
             <SectionTitle title="3年後にやりたいこと" lead="FUTURE" position="start" />
-            <p className="mt-10  mr-10 whitespace-nowrap">
+            <p className="mt-10 mr-10 whitespace-normal">
               テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br />
               テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br />
               テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br />
