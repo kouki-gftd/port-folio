@@ -4,7 +4,7 @@ import Image from "next/image";
 export const Card = (props) => {
   return (
     <>
-      <div className="text-center mx-20">
+      <div className="text-center mx-10">
         <div>
         <Image
           src={props.src}
