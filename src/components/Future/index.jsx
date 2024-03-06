@@ -9,7 +9,7 @@ export const Future = () => {
     <>
       <section id="future" className={`${classes.bg} py-10 flex justify-center`}>
         <div className="md:flex flex-row ml-10 mt-10">
-          <div className="md:flex flex-col items-baseline justify-center mr-5">
+          <div className="md:flex flex-col items-baseline justify-center">
             <SectionTitle title="3年後にやりたいこと" lead="FUTURE" position="start" />
             <p className="mt-10 whitespace-normal">
               テキストテキストテキストテキストテキストテキストテキストテキスト<br />
@@ -19,7 +19,7 @@ export const Future = () => {
               テキストテキスト
             </p>
           </div>
-          <div className="mt-10">
+          <div className="mt-10 mx-10">
             <Image src={futureImg} alt="future" />
           </div>
         </div>
