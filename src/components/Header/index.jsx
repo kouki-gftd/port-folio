@@ -17,7 +17,7 @@ export const Header = () => {
               <Image src={logoImg} alt="ロゴ" width="240" height="120" placeholder="blur" />
             </Link>
             <nav>
-              <ul className="flex text-text-green mr-5">
+              <ul className="flex text-text-green md:mr-5">
                 {ITEMS.map((item) => {
                   return (
                     <li key={item} className="mr-4 last:mr-0 font-bold my-2">
